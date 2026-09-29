@@ -28,7 +28,7 @@ mhsurv <- read_excel("../data/1-source/KC Health_raw data_Mental Health Survey R
 Import codebook.
 
 ```{r}
-sh <- excel_sheets("../data/1-source/mhs-codebook.xlsx")
+sh <- excel_sheets("../data/1-source/mhs-codebook-2024.xlsx")
 cb <- lapply(sh, \(x) read_excel(
   "../data/1-source/mhs-codebook.xlsx",
   sheet = x
