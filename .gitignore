@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 
+*.Rproj
+
 # Folders
 /data/
 /output/
